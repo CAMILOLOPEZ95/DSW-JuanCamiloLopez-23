@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+
+    width: auto;    
+    height: 75px;
+    margin: 15px;
+    background-color: rgb(0, 70, 105);
+    border-radius: 20px;
+ 
+}
+
+nav {
+    float: center;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float:left;
+    position: relative;
+ 
+}
+ 
+nav ul li a {
+ 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+ 
+}
+ 
+nav ul li a:hover {
+ 
+    background-color: rgb(90, 156, 189);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+ 
+.titulo{
+
+    text-align:center; 
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(1, 51, 77);
+    font-size: 45px;
+
+}
+
+.sectionfase2{
+
+    display: flex;
+
+}
+
+.sectiontitulo{
+
+    display: flex   ;
+}
+
+.divtituloizquierda{
+
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+    padding: auto;
+    
+}
+
+.divtituloderecha{
+
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+}
+
+.sectionvideo{
+
+    width: 40%;
+    height: 100vh;
+    margin: 35px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 150px;
+
+}
+
+.sectionpdf{
+
+    width: 60%;
+    height: 100vh;
+    margin: 10px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.imgunad{
+
+    padding: 10px;
+    margin: 5px;
+
+}
+.divfooter{
+
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.footer{
+
+    background-color: rgba(0, 0, 0, 0.568);
+           
+}
+
+.footersection{
+
+    display: flex;
+}
+
+.divfooterderecha{
+
+    width: 50%;
+    height: 80px;
+    
+}
+
+.textoFooter{
+
+    text-align: right;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.divfooterizquierda{
+
+    width: 50%;
+    height: 80px;
+    display:flex; 
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+
+
+.iconWhatsappEmailInstagram{
+
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    object-fit: cover;              
+}
+
+.iconWhatsappEmailInstagram:hover{
+
+    cursor: pointer;
+    opacity: 20s;
+    transform: rotate(-8.2deg) scale(1.5);
+    transition: 1s ease;
+}
+
+.divmockup{
+
+    text-align: center;
+
+}
+
+.imgmockup{
+
+    max-width: 100%;
+   
+}
+
+.subTitutlo{
+
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo{
+
+    text-align: justify;
+    border: 5px;
+    padding: 20px;
+    margin: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+
+    text-align: left;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.licssgrid{
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
